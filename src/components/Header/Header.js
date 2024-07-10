@@ -1,23 +1,26 @@
 import React from "react";
 import Typical from "react-typical";
-import profileImg from "../../assets/profileImg.png";
+import profileImg from "../../assets/profile.png";
 import "./Header.css";
 const Header = () => {
   return (
     <div className="header-container">
-      {/* Header Content */}
+      {/* header content */}
       <div className="header-content">
         <h1>Hy! Am</h1>
-        <h2 className="full-name">Akshar Pujara</h2>
+        <h2 className="fullname">Akshar Pujara</h2>
         <h2>
           I'm a {""}
           <Typical
             steps={[
-              "Full Stack Developer Student  🚀",
+              "Full Stack Developer 🚀",
               1000,
               "Frontend Developer ✅",
               1000,
-              "React Developer 👨‍💻",
+              "Backend Developer 🏆",
+              1000,
+
+              "React Developer ⚛️",
               1000,
             ]}
             loop={Infinity}
@@ -25,21 +28,21 @@ const Header = () => {
           />
         </h2>
         <p>
-          Welcome to my Website. I am an Web Development Student. Currently
-          pursuing React JS. This is my first functional website using React.
+          Welcome to Hariprabodham Foundation website. I am Akshar Pujara. Here we will teach you all about Web-Development, Desktop-Development and U/X Designing.
+          Switching to Hariprabodham Foundation will boost your career and will help to get job in your dream company.
         </p>
-        {/* /Payment gateway */}
+        {/* payment links */}
         <div className="header-payment-container">
           <button>Hire Me</button>
           <i className="fa-brands fa-paypal"></i>
-          <i className="fa-brands fa-cc-visa"></i>
-          <i className="fa-brands fa-cc-mastercard"></i>
-          <i className="fa-brands fa-cc-amex "></i>
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-brands fa-cc-amex"></i>
         </div>
       </div>
-      {/* Image Container */}
+      {/* Image container */}
       <div className="profile-img-container">
-        <img src={profileImg} />
+        <img src={profileImg} alt="" />
         <div className="circle-1"></div>
         <div className="circle-2"></div>
       </div>

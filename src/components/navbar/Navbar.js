@@ -1,12 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo">
-        <img src={logo} />
+        <img src="https://danamojo.org/dm/backend/web/uploads/ckeditor/images/hpf.jpg" />
       </div>
       <div className="nav-links">
         <ul>
