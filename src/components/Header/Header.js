@@ -8,7 +8,7 @@ const Header = () => {
       {/* header content */}
       <div className="header-content">
         <h1>Hy! Am</h1>
-        <h2 className="fullname">Akshar Pujara</h2>
+        <h2 className="fullname">Prem Pujara</h2>
         <h2>
           I'm a {""}
           <Typical
