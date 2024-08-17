@@ -28,7 +28,7 @@ const Header = () => {
           />
         </h2>
         <p>
-          Welcome to Hariprabodham Foundation website. I am Akshar Pujara. Here we will teach you all about Web-Development, Desktop-Development and U/X Designing.
+          Welcome to Hariprabodham Foundation website. I am Prem Pujara. Here we will teach you all about Web-Development, Desktop-Development and U/X Designing.
           Switching to Hariprabodham Foundation will boost your career and will help to get job in your dream company.
         </p>
         {/* payment links */}
