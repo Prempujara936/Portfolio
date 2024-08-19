@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import profileImg from "../../assets/profileImage.png";
+import profileImg from "../../assets/profile.png";
 import "./Header.css";
 const Header = () => {
   return (
